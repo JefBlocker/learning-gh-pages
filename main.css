@@ -1,0 +1,12 @@
+.bracketed:before {
+  content: "[";
+}
+.bracketed:after {
+  content: "]";
+  content: "";
+  display: inline-block;
+  height: 50px;
+  width: 50px;
+  background: red;
+  right: 0;
+}
